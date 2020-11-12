@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "hellogalleria";
+  src: url("./fonts/hellogalleriasans.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/hellogalleriasans.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/hellogalleriasans.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/hellogalleriasans.woff")
+      format("woff"),
+    /* Pretty Modern Browsers */ url("./fonts/hellogalleriasans.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("./fonts/hellogalleriasans.svg#svgFontName")
+      format("svg"); /* Legacy iOS */
+}
+
+.main-bg-color-dark {
+  background-color: #cc9f91;
+}
+
+.main-bg-color-light {
+  background-color: #fff;
+}
+
+.main-color-dark {
+  background-color: #cc9f91;
+}
+
+.main-color-light {
+  background-color: #fff;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  min-height: 350px;
+}
+
+.text-color {
+  color: #7a7b80;
+}
+
+body {
+  font-family: "hellogalleria";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.sidebar {
+  display: flex;
+  width: 40%;
+  position: relative;
+}
+
+.sidebar h1 {
+  position: absolute;
+  font-size: 1.15rem;
+  left: 115px;
+  bottom: 60px;
+}
